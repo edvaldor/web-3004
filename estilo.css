@@ -1,15 +1,22 @@
-#container{
+#container{ /*id: so pode ser usado 1x na página*/
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
     padding: 5%;
     background-color: silver;
 }
-.caixa{
+.caixa{ /*class: pode ser usado várias vezes*/
     width: 300px;
     background-color: black;
     color: whitesmoke;
     padding: 15%;
     border-radius: 10px;
     text-align: center;
+
+}
+img{ /*tag: é o controle da tag do html*/
+    max-width: 55%;
+    max-height: 55%;
+    width: auto;
+    height: auto;
 }
